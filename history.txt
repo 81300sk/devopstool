@@ -38,3 +38,23 @@
   511  history | tail -10
   512  history | tail -30
   513  history | tail -40 >> history.txt
+  516  git add history.txt 
+  517  git status
+  518  git commit -m "my history update of ansible"
+  519  git status
+  520  git log
+  521  git show 12be664
+  522  git status
+  523  git push origin master
+  524  git branch'
+  525  git branch
+  526  git branch dev
+  527  git branch tester
+  528  git chekou dev
+  529  git branch
+  530  git checkout dev
+  531  git branch
+  532  git push origin dev
+  533  git checkout master
+  534  git branch
+  535  history | tail -20 >> history.txt
