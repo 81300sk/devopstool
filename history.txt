@@ -1,0 +1,40 @@
+  474  git restore --staged copided 
+  475  git status
+  476   
+  477  git branch 
+  478  git checkout -b feature1
+  479  ls
+  480  git branch
+  481  git chekou master
+  482  git chekout master
+  483  git branch
+  484  git checkout master
+  485  git branch
+  486  git log
+  487  git add origin git@github.com:81300sk/devopstool.git
+  488  git remote add origin git@github.com:81300sk/devopstool.git
+  489  ls -ltr
+  490  git push -u origin master
+  491  sudo git push -u origin master
+  492  ssh-keygen -t ed25519
+  493  ls -la
+  494  cd .ssh/
+  495  ls -ltr
+  496  cat id_ed25519.pub 
+  497  cd
+  498  ls
+  499  git remote add origin git@github.com:81300sk/devopstool.git
+  500  git push origin master
+  501  ls
+  502  history
+  503  ls
+  504  history >> history.txt
+  505  ls
+  506  cat history.txt 
+  507  ls
+  508  rm -rf history.txt 
+  509  ls
+  510  history | less
+  511  history | tail -10
+  512  history | tail -30
+  513  history | tail -40 >> history.txt
