@@ -1,0 +1,9 @@
+--- #my testing plybook by self
+- hosts: demo
+  user: ansible
+  become: yes
+  connection: ssh
+  tasks:
+    - name: install HTTPD on centos 7
+      action: yum name=httpd state=installed
+

@@ -1,0 +1,2 @@
+- name: install apache on RedHat
+  yum: pkg=httpd state=latest

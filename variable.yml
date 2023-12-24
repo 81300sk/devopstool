@@ -1,0 +1,12 @@
+--- # my first testing yaml playbook
+- hosts: demo
+  user: ansible
+  become: yes
+  connection: ssh
+  vars:
+                    pkgname: httpd
+  tasks:
+                  - name: install HTTPD server on centos 7
+                    action: yum name='{{pkgname}}' state=installed   
+
+
